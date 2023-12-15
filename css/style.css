@@ -20,9 +20,11 @@ a , li {
 
 h1{
     font-size: 3.5em;
+    color: #9fb188;
 }
 h3{
     font-size: 2em;
+    color: #fff;
 }
 p{
     font-size: 1.5em;
@@ -47,21 +49,7 @@ a{
 }
 
 /*HEADER Y NAV*/
-#header {
-    height: 70px;
-    text-align: center;
-    background-color: #3E6036;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: wrap;
-}
+
 /*SECCION MAIN*/
 #main {
     min-height: 100vh;
@@ -127,10 +115,6 @@ ul{
     color: #fff;
 }
 
-#botones{
-    background-color: #02020250;
-    text-align: center;
-}
 
 /*SECCION FOOTER*/
 #footer {
@@ -146,4 +130,12 @@ ul{
     flex-direction:row;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: #000;
+}
+
+@media screen and (max-width: 480px) {
+    #banner .conteiner{
+        display: flex;
+        
+    }
 }

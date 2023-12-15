@@ -4,28 +4,55 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--LINK A ESTILOS-->
-        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
         <!--TÍTULO DEL DOCUMENTO-->
-        <title>Calzado</title>
+        <title>Elementos</title>
     </head>
     <body>
         <!--ESTRUCTURA #1 / HEADER-NAV-->
-        <header id="header">
-            <h3>PLACARD DEL DEPORTE</h3>
-            <nav id="nav">
-                <ul> <!--LISTA DESORDENADA-->
-                    <li><a href="calzado.html">INICIO</a></li>
-                    <li><a href="elementos.html">ELEMENTOS</a></li>
-                    <li><a href="ropa.html">ROPA</a></li>
-                    <li><a href="carrito.html">CARRITO</a></li>
+        <header>
+
+            <nav class="navbar" style="background-color: #3E6036;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Placard del deporte</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="../pages/calzado.html">Calzado<a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="elementos.html">Elementos</a>
+                 </li>
+                <li class="nav-item">
+                    <a class="nav-link"href="../pages/ropa.html">Ropa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/carrito.html">Carrito</a>
+                </li>
                 </ul>
-            </nav>
+              </div>
+            </div>
+          </nav>
         </header>
 
         <!--ESTRUCTURA #2 / MAIN/SECTIONS-ARTICLES-DIVS-ASIDES-->
         <main id="main">
             <section id="banner">
+                <div class="conteiner">
+
+                    <h1>¡¡¡TENEMOS DESCUENTOS HASTA DEL 25% EN ELEMENTOS!!!<br>Del 15 al 25 de noviembre</h1>
+                    <button>Ver ofertas</button>
+                </div>
+            </section>
+            <section id="nuevo">
                 <div class="conteiner">
                     <div class="conteiner_img">
                         <h3>Nuevo</h3>
@@ -37,10 +64,6 @@
                         <img src="../images/pelota_qatar.jpg" alt="botin">
                         <p>precio</p>
                     </div>
-                </div>
-            </section>
-            <section id="botones">
-                <div class="conteiner">
                     <button>Ver mas</button>
                 </div>
             </section>    
@@ -66,5 +89,6 @@
 
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
